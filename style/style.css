@@ -21,7 +21,7 @@ body{
     color: yellow;
     white-space: nowrap;
     animation: marquee 3s infinite linear;
-    width: 100%;
+    width: 100vw;
 }
 
 .marquee:after{

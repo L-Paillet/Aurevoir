@@ -38,7 +38,8 @@ body{
 }
 .contenue{
     justify-content: center;
-    border: 1px solid rgb(255, 255, 255);
+    /* border: 1px solid rgb(255, 255, 255); */
+    display: flex;
 }
 
 .carousel-item img{
@@ -47,7 +48,7 @@ body{
     min-height: 50vh;
     max-height: 50vh;
     background-repeat: no-repeat;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     height: auto !important;
     width: auto !important;
 }

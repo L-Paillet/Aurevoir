@@ -29,12 +29,13 @@
 }
 .contenue{
     height: 60%;
-    width: 70%;
     justify-content: center;
-    border: 1px solid red;
+    border: 1px solid rgb(255, 255, 255);
 }
 
-.carousel-inner img{
+.carousel-item img{
+    width: 100%;
+    background-repeat: no-repeat;
     border: 1px solid blue;
     height: auto !important;
     width: auto !important;

@@ -11,14 +11,31 @@
     padding: 24px 0;
     color: yellow;
     white-space: nowrap;
-    animation: marquee 30.5s infinite linear;
+    animation: marquee 3s infinite linear;
+    width: 100%;
+}
+
+.marquee:after{
+    content: "Au revoir Charlotte";
+    background-color: crimson;
+}
+@keyframes marquee {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-50%);
+    }
 }
 .contenue{
     height: 60%;
     width: 70%;
+    justify-content: center;
+    border: 1px solid red;
 }
 
 .carousel-inner img{
+    border: 1px solid blue;
     height: auto !important;
     width: auto !important;
 }

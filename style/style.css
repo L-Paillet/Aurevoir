@@ -1,0 +1,25 @@
+.divMarquee{
+    display: flex;
+    align-items: center;
+    background-color: crimson;
+    overflow: hidden;
+}
+.marquee{
+    font-size: 100px;
+    line-height: 1.3;
+    font-family: sans-serif;
+    padding: 24px 0;
+    color: yellow;
+    white-space: nowrap;
+    animation: marquee 30.5s infinite linear;
+}
+.contenue{
+    height: 60%;
+    width: 70%;
+}
+
+.carousel-inner img{
+    height: auto !important;
+    width: auto !important;
+}
+

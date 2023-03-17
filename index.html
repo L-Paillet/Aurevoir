@@ -54,6 +54,26 @@
       <div class="before"></div>
       <div class="after"></div>
     </div>
+ <audio id="myAudio" controls autoplay loop>
+  <source src="./img/Charlotte aux Fraises générique.mp3" type="audio/mp3">
 
+ </audio>
+
+ <script>
+  var myAudio = document.getElementById("myAudio");
+var promise = myAudio.play();
+
+if (promise !== undefined) {
+    promise.then(_ => {
+        // Lecture automatique activée
+    }).catch(error => {
+        // La lecture automatique a été désactivée
+        // Activer la lecture automatique lorsque l'utilisateur interagit avec la page
+        document.addEventListener('click', function() {
+            myAudio.play();
+        });
+    });
+}
+ </script>
 </body>
 </html>
